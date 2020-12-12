@@ -1,5 +1,5 @@
 import React from 'react';
-import {Bar, Line} from 'react-chartjs-2';
+import { Line} from 'react-chartjs-2';
 import Notepad from './Notepad';
 import './Chart.css';
 import Tab from './Tabs';
