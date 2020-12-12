@@ -1,0 +1,39 @@
+.to-do-form input{
+    background-color:#FFF0F5;
+    border: 0; 
+    color: black;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    padding: 0 20px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  .notepad{
+    background-color:#fff;
+    height:400px;
+    width:400px;
+    border: 1px solid #A9A9A9;
+    border-radius: 20px;
+    margin: 40px 200px 20px;
+    padding:20px;
+  }
+  
+  .to-do-form input::placeholder{
+    color:black;
+    
+}
+  .to-do-form input:focus{
+    outline: none;
+  }
+  .to-do-form button{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border: 0;
+    background-color:rgba(202, 156, 24, 1); 
+    cursor: pointer;
+  }
+  .to-do-form button:focus{
+    outline: none;
+  }
